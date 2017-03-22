@@ -1,0 +1,40 @@
+ 
+header a {
+    color: #000000;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;margin-left: 5px;
+}
+nav .row {
+    text-align: center;
+}
+.li-nav {
+    border-bottom-style: inset;
+    border-bottom-color: pink;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media (min-width: 1024px) {
+    .header-right {
+        display: table-cell;
+        height: 100px;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 1024px) {
+    .logo {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .header-right {
+        display: block;
+        text-align: center;
+    }
+}
