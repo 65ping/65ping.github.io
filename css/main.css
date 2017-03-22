@@ -1,6 +1,9 @@
- 
+body {
+    margin-top: 100px;
+    font-family: 'Dosis', sans-serif;
+}
 header a {
-    color: #000000;
+    color: #444444;
     font-size: 25px;
 }
 
@@ -8,24 +11,31 @@ ul {
     list-style-type: none;
 }
 
+ul.social-media li {
+    display: inline;
+    margin-left: 20px;
+}
 ul li {
-    display: inline;margin-left: 5px;
+    display: inline;
 }
 nav .row {
     text-align: center;
 }
 .li-nav {
     border-bottom-style: inset;
-    border-bottom-color: pink;
-    font-size: 25px;
+    border-bottom-color: #ef6d6a;
+    font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 @media (min-width: 1024px) {
     .header-right {
         display: table-cell;
         height: 100px;
         vertical-align: middle;
+        float: right;
+        padding-top: 60px;
     }
 }
 @media (max-width: 1024px) {
