@@ -29,6 +29,12 @@ nav .row {
     padding-right: 20px;
     padding-bottom: 10px;
 }
+
+img:hover{
+    -moz-box-shadow: 0 0 10px #9b9b9b;
+    -webkit-box-shadow: 0 0 10px #9b9b9b; 
+    box-shadow: 0 0 10px #9b9b9b;
+}
 @media (min-width: 1024px) {
     .header-right {
         display: table-cell;
@@ -37,10 +43,10 @@ nav .row {
         float: right;
         padding-top: 60px;
     }
-    
+
     .img-responsive{
         width: 375px;
-        padding-top: 70px;
+        margin-top: 70px;
         }
     .leftimg{
         float: right;
@@ -48,15 +54,28 @@ nav .row {
     .rightimg{
         margin-left: 11px;
     }
+    
+    footer { 
+        font-family: 'Dosis', sans-serif;
+        margin-top: 86px;
+   }
 }
 @media (max-width: 1024px) {
     .logo {
         text-align: center;
         margin: 20px 0;
     }
+    
     .header-right {
         display: block;
         text-align: center;
     }
+    footer { 
+        font-family: 'Dosis', sans-serif;
+        margin-top: 20px;
+   }
+    .img-responsive{
+        margin-top: 70px;
+        }
 }
 
