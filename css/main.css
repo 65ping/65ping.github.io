@@ -21,14 +21,6 @@ ul li {
 nav .row {
     text-align: center;
 }
-.li-nav {
-    border-bottom-style: inset;
-    border-bottom-color: #ef6d6a;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-}
 
 img:hover{
     -moz-box-shadow: 0 0 10px #9b9b9b;
@@ -43,6 +35,16 @@ img:hover{
         float: right;
         padding-top: 60px;
     }
+    
+    .li-nav {
+    border-bottom-style: inset;
+    border-bottom-color: #ef6d6a;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    }
+
 
     .img-responsive{
         width: 375px;
@@ -66,9 +68,26 @@ img:hover{
         margin: 20px 0;
     }
     
+    .li-nav {
+    border-bottom-style: inset;
+    border-bottom-color: #ef6d6a;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+    .rightimg{
+        margin-top: 0px;
+    }
+    .leftimgP{
+        margin-bottom: 0;
+    }
+    
     .header-right {
         display: block;
         text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     footer { 
         font-family: 'Dosis', sans-serif;
