@@ -27,6 +27,11 @@ img:hover{
     -webkit-box-shadow: 0 0 10px #9b9b9b; 
     box-shadow: 0 0 10px #9b9b9b;
 }
+
+footer{
+    margin-bottom: 30px;
+    
+}
 @media (min-width: 1024px) {
     .header-right {
         display: table-cell;
@@ -100,7 +105,7 @@ img:hover{
     }
     footer { 
         font-family: 'Dosis', sans-serif;
-        margin-top: 25px;
+        margin-top: 30px;
    }
     .img-responsive{
         margin-top: 70px;
